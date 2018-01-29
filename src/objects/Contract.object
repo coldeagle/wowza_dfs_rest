@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>CustomerSigningRole__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Signing Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Distributor</fullName>
+                    <default>false</default>
+                    <label>Distributor</label>
+                </value>
+                <value>
+                    <fullName>Reseller</fullName>
+                    <default>false</default>
+                    <label>Reseller</label>
+                </value>
+                <value>
+                    <fullName>Borrower</fullName>
+                    <default>false</default>
+                    <label>Borrower</label>
+                </value>
+                <value>
+                    <fullName>Buyer</fullName>
+                    <default>false</default>
+                    <label>Buyer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DocuSignEnvelopeId__c</fullName>
+        <externalId>true</externalId>
+        <label>DocuSign Envelope Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocuSignStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>DocuSign Status</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
